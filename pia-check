@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -s https://www.privateinternetaccess.com | grep ">You are" | cut -d">" -f2 | cut -d"<" -f1
